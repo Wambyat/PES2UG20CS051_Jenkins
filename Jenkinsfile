@@ -15,7 +15,8 @@ pipeline {
         }
         stage( 'Deploy') {
             steps {
-                echo 'Deployment Successful '
+                //this is intentional error
+                ech 'Deployment Successful '
             }
         }
     }
